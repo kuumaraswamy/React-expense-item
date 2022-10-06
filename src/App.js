@@ -1,10 +1,13 @@
 
 import React from 'react'
-
+import ExpenseItem from './components/ExpenseItem'
 const App = () => {
   return (
     <div>
-      <h1>hello world</h1>
+      <ExpenseItem></ExpenseItem>
+      <h1>Food Rs10</h1>
+      <h1>Petrol Rs100</h1>
+      <h1>Movies Rs200</h1>
     </div>
   )
 }
